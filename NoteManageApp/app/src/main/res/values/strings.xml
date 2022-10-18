@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Note Manage App</string>
+
+    <!--    Home-->
+    <string name="Home_title">NOTE APP</string>
+    <string name="Home_log_user">Guest</string>
+    <string name="Home_btn_my_notes">MY NOTES</string>
+    <string name="Home_btn_user_profile">USER PROFILE</string>
+    <string name="Home_btn">USER PROFILE</string>
+
+    <!--    User Profile-->
+    <string name="UserProfile_title">USER PROFILE</string>
+    <string name="UserProfile_hint_name">Name</string>
+    <string name="UserProfile_hint_contact_number">Contact Number</string>
+    <string name="UserProfile_hint_email">Email</string>
+    <string name="UserProfile_btn_save">SAVE</string>
+
+    <!--    All notes-->
+    <string name="AllNotes_title">ALL NOTES</string>
+
+    <!--    New Note-->
+    <string name="NewNote_title">NEW NOTE</string>
+    <string name="NewNote_hint">Enter your note here</string>
+    <string name="NewNote_btn_save">SAVE</string>
+
+    <!--    View / Edit Note-->
+    <string name="ViewEditNote_btn_save">SAVE</string>
+
+
+</resources>

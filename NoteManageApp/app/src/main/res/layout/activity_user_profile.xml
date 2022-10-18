@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@color/primary_green"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/UserProfile_title"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/primary_black"
+                android:gravity="center|left">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    body-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/secondary_ash"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ET_userName"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:inputType="text"
+                android:hint="@string/UserProfile_hint_name"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_regular"
+                android:background="@drawable/background_black_border"
+                android:layout_margin="5dp"
+                android:paddingLeft="7dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_userContactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:inputType="text"
+                android:hint="@string/UserProfile_hint_contact_number"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_regular"
+                android:background="@drawable/background_black_border"
+                android:layout_margin="5dp"
+                android:paddingLeft="7dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:inputType="text"
+                android:hint="@string/UserProfile_hint_email"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_regular"
+                android:background="@drawable/background_black_border"
+                android:layout_margin="5dp"
+                android:paddingLeft="7dp">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/UserProfile_btn_save"
+                android:textSize="20sp"
+                android:backgroundTint="@color/primary_ash"
+                android:onClick="saveUserProfile">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
